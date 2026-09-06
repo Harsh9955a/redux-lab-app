@@ -3,7 +3,6 @@ import { createSelector } from "@reduxjs/toolkit"; // re-exports reselect's crea
 // ---- Input selectors (cheap, non-memoized) ----
 const selectPostsById = (state) => state.posts.byId;
 const selectPostsAllIds = (state) => state.posts.allIds;
-const selectPlatformFilter = (state) => state.ui?.platformFilter ?? null;
 
 // ---- Memoized derived state ----
 
